@@ -15,5 +15,8 @@ def index():
                          output.lower())
 
 @app.route('/outputs')
+
+
 def supported_output():
     return ", ".join(SUPPORTED)
+
